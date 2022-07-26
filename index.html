@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="stylesheet" href="theme1.css">
+<!-- <link rel="stylesheet" href="theme2.css"> -->
+<!-- <link rel="stylesheet" href="theme3.css"> -->
+<script src="script.js" defer></script>
+  <title>Calculator app</title>
+
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="header">
+        <span>calc</span>
+
+        <div class="toggle-container">
+          <div class="theme-no">
+            <span>1</span><span>2</span><span>3</span>
+          </div>
+          <div class="toggle-btns" style="cursor: pointer;">
+            <b>THEME</b>
+            <div class="btns">
+              <span id="theme1"></span>
+              <span id="theme2"></span>
+              <span id="theme3"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="body-input">
+        <input id="main-input" type="text" name="calcInput"></input>
+      </div>
+      <div class="calc-main">
+        <div class="num-body">
+          <div class="grid-items">7</div>
+          <div class="grid-items">8</div>
+          <div class="grid-items">9</div>
+          <div class="grid-items delnres" id="del">DEL</div>
+          <div class="grid-items">4</div>
+          <div class="grid-items">5</div>
+          <div class="grid-items">6</div>
+          <div class="grid-items">+</div>
+          <div class="grid-items">1</div>
+          <div class="grid-items">2</div>
+          <div class="grid-items">3</div>
+          <div class="grid-items">-</div>
+          <div class="grid-items">.</div>
+          <div class="grid-items">0</div>
+          <div class="grid-items">/</div>
+          <div class="grid-items">X</div>
+        </div>
+        <div class="eqnres">
+          <div class="grid-items delnres" id="res">RESET</div>
+          <div class="grid-items theme" id="eq">=</div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+
+</body>
+
+</html>
