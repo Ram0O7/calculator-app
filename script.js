@@ -7,11 +7,11 @@ const btns = document.getElementsByTagName('span');
 for (let i = 4; i < 7; i++) {
     btns[i].addEventListener('click', function () {
         if (i == 4) {
-            theme.setAttribute('href', 'theme1.css');
+            theme.setAttribute('href', 'themes/theme1.css');
         } else if (i == 5) {
-            theme.setAttribute('href', 'theme2.css');
+            theme.setAttribute('href', 'themes/theme2.css');
         } else {
-            theme.setAttribute('href', 'theme3.css');
+            theme.setAttribute('href', 'themes/theme3.css');
         }
     });
 }
@@ -33,7 +33,7 @@ for (let j = 0; j < numBtns.length; j++) {
         result += btnValue;
 
         // evalution of the entered values
-        
+
         if (btnValue == '=' || btnValue == 'DEL' || btnValue == 'RESET') {
             result = result.slice(0, result.length - 1)
 
