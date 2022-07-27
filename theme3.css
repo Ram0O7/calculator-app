@@ -86,6 +86,7 @@ body {
   font-size: 35px;
   font-weight: 700;
   padding: 10px;
+  text-align: end;
 }
 
 .calc-main {
@@ -143,7 +144,7 @@ body {
   box-shadow: 0 3px hsl(177, 92%, 70%);
 }
 
-@media (max-width:440px) {
+@media (max-width:480px) {
   .container{
     width: 350px;
   }
