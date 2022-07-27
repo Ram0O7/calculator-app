@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL]()
-- Live Site URL: [live site URL]()
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/calculator-app-fully-responsive-working-QkTcz6B35y)
+- Live Site URL: [live site URL](https://ram0o7.github.io/calculator-app/)
 
 
 ## Author

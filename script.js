@@ -15,6 +15,11 @@ for (let i = 4; i < 7; i++) {
         }
     });
 }
+ 
+// addding keypress sound
+const beep = new Audio('keySound.mp3');
+
+
 
 // calculator logic
 const consoleInput = document.getElementById('main-input');
@@ -30,6 +35,8 @@ for (let j = 0; j < numBtns.length; j++) {
     let btnValue = numBtns[j].innerText;
 
     numBtns[j].addEventListener('click', function () {
+        beep.play();
+
         result += btnValue;
 
         // evalution of the entered values

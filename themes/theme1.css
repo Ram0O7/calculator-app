@@ -89,6 +89,7 @@ body {
   font-weight: 700;
   padding: 10px;
   text-align:end;
+  overflow: hidden;
 }
 
 .calc-main {
@@ -117,11 +118,21 @@ body {
   box-shadow: 0 3px hsl(28, 16%, 65%);
 }
 
+.num{
+  text-shadow: 2px 2px 1px hsl(221, 14%, 66%);
+}
+.num:hover{
+  background-color: hsl(30, 25%, 100%);
+}
+
 .delnres {
   font-size: x-large;
   color: white;
   background-color: hsl(225, 21%, 49%);
   box-shadow: 0 3px hsl(224, 28%, 35%);
+}
+.delnres:hover{
+  background-color: hsl(225, 21%, 57%);
 }
 
 .eqnres {
@@ -145,13 +156,19 @@ body {
   background-color: hsl(6, 63%, 50%);
   box-shadow: 0 3px hsl(6, 70%, 34%);
 }
+.theme:hover{
+  background-color: hsl(6, 63%, 58%);
+}
 
-@media (max-width:480px) {
-  .container{
-    width: 350px;
-  }
+#theme1{
+  background-color: hsl(6, 63%, 50%);
+}
+
+@media (max-width:600px) {
+
   .grid-items{
     width: 60px;
+    cursor:default;
   }
   #main-input{
     width: 350px
@@ -160,6 +177,19 @@ body {
 width: 350px;
   }
 }
-#theme1{
-  background-color: hsl(6, 63%, 50%);
+
+@media (max-width:400px) {
+  .container{
+width: 300px;
+  }
+  #main-input{
+    width: 300px;
+  }
+  .header{
+    width: 300px;
+  }
+  .grid-items{
+    width: 50px;
+    cursor:default;
+  }
 }
